@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> My School Larner</title>
+  <link rel="stylesheet" href="lb/boostrap_icon/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="lb/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lb/style.css">
+</head>
+
+<body class="body">
+
+  <header id="header" class="header   sticky-top ">
+
+    <div class="container container-xl position-relative d-flex align-items-center gap-5">
+
+      <a href="index.html" class="logo  d-flex align-items-center text-decoration-none text-white">
+
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename fw-bold ">Learner</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu hide-nav d-flex align-items-center mt-3">
+        <ul class="d-flex gap-4 list-unstyled">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="instructors.html">Instructors</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down"></i></a>
+
+            <ul class="">
+
+              <li><a href="course-details.html">Course Details</a></li>
+              <li><a href="instructor-profile.html">Instructor Profile</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="blog-details.html">Blog Details</a></li>
+              <li><a href="terms.html">Terms</a></li>
+              <li><a href="privacy.html">Privacy</a></li>
+              <li><a href="404.html">404</a></li>
+
+            </ul>
+
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </nav>
+
+      <a class="btn-getstarted rounded-pill px-4 py-2 ms-auto" href="enroll.html">Enroll Now</a>
+      <i class="nav-toggle bi bi-list d-none fs-2" id="nav-toggle"></i>
+    </div>
+  </header>
+
+  <!-- responsiv header -->
+  <div class="responsiv navmenu bg-white text-danger p-5">
+
+    <i class="bi bi-x corss-btn text-dark position-absolute"></i>
+
+    <ul class="d-flex flex-column gap-4 list-unstyled">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="instructors.html">Instructors</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li class="res-drop clickToOpen "><a href="#"><span>More Pages</span> </a>
+        <i class="bi bi-chevron-down   float-end"></i>
+        <ul class="list-unstyled p-4">
+
+          <li><a href="course-details.html">Course Details</a></li>
+          <li><a href="instructor-profile.html">Instructor Profile</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="blog-details.html">Blog Details</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="404.html">404</a></li>
+
+        </ul>
+
+      </li>
+
+      <li class="res-drop1 clickToOpen1 "><a href="#"><span>Dropdown</span> </a>
+        <i class="bi bi-chevron-down float-end"></i>
+        <ul>
+          <li><a href="#">Dropdown 1</a></li>
+          <li class=" "><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Deep Dropdown 1</a></li>
+              <li><a href="#">Deep Dropdown 2</a></li>
+              <li><a href="#">Deep Dropdown 3</a></li>
+              <li><a href="#">Deep Dropdown 4</a></li>
+              <li><a href="#">Deep Dropdown 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Dropdown 2</a></li>
+          <li><a href="#">Dropdown 3</a></li>
+          <li><a href="#">Dropdown 4</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+
+  <main class="main">
+    <!-- hero -->
+    <section class="hero-bg py-5">
+      <div class="container py-5">
+
+        <div class="row align-items-center g-4">
+
+          <div class="col-md-6">
+            <div class="hero-text">
+              <h1 class="fw-bold text-center text-md-start ">
+                Transform Your Future with Expert Led Online Courses
+              </h1>
+              <p class="text-muted text-center text-md-start ">
+                Discover thousands of high-quality courses designed by industry professionals. Learn at your own pace,
+                gain in-demand skills, and advance your career from anywhere in the world.
+              </p>
+              <div class="counter"></div>
+              <div class="action row g-2 justify-content-center align-items-center py-3">
+                <div class="col-md-6">
+
+                  <a href="#" class="rounded-pill  text-center  first-hvr  d-block">Browse Course</a>
+                </div>
+                <div class="col-md-6">
+
+                  <a href="#" class="rounded-pill text-center lrm-btn d-block">Learn More</a>
+                </div>
+              </div>
+              <div class="hero-features justify-content-center d-flex flex-wrap gap-4">
+                <div class="feature">
+                  <i class="bi bi-shield-check"></i>
+                  <span>Certified Programs</span>
+                </div>
+                <div class="feature">
+                  <i class="bi bi-people"></i>
+                  <span>Expert Instructors</span>
+                </div>
+                <div class="feature">
+                  <i class="bi bi-clock"></i>
+                  <span>Lifetime Access</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="hero-img position-relative">
+              <img src="img/education/courses-13.webp" class="img-fluid rounded-4" alt="">
+              <div class="course-cad position-absolute rounded-3 d-none d-md-block bg-white p-2 d-inline-block">
+                <div class="card-icon">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <div class="card-content">
+                  <h6>Web Development</h6>
+                  <span>2,450 Students</span>
+                </div>
+              </div>
+              <div class="course-cad2 position-absolute rounded-3  d-none d-md-block bg-white p-2 d-inline-block">
+                <div class="card-icon">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <div class="card-content">
+                  <h6>Web Development</h6>
+                  <span>2,450 Students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Courses -->
+    <section class="container py-5">
+      <div class="bg-light">
+
+        <div class="row">
+          <div class="col-md-12 py-4">
+            <div class="text-center">
+  
+              <div class="title d-flex justify-content-center align-items-center gap-3">
+                <div class="line1"></div>
+                <h2>Featured Courses</h2>
+                <div class="line1"></div>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nulla!</p>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6">
+            <div class="course-card rounded-2">
+              <div class="course-image position-relative">
+                <img src="img/education/students-9.webp" alt="Course" class="img-fluid rounded-2">
+                <div class="badge featured rounded-pill">Featured</div>
+                <div class="price-badge rounded-pill">$149</div>
+              </div>
+              <div class="course-content bg-white p-2">
+                <div class="course-meta py-3">
+                  <span class="level bg-body-secondary px-3 py-2 rounded-pill">Beginner</span>
+                  <span class="duration bg-body-tertiary px-3 py-2 rounded-pill">8 Weeks</span>
+                </div>
+                <h3><a href="#" class="text-dark text-decoration-none h5">Digital Marketing Fundamentals</a></h3>
+                <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua enim ad minim veniam.</p>
+                <div class="instructor">
+                  <img src="img/person/person-f-3.webp" alt="Instructor" class="instructor-img">
+                  <div class="instructor-info">
+                    <h6>Sarah Johnson</h6>
+                    <span>Marketing Expert</span>
+                  </div>
+                </div>
+                <div class="course-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students">
+                    <i class="bi bi-people-fill"></i>
+                    <span>342 students</span>
+                  </div>
+                </div>
+                <a href="#" class="btn-course">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="lb/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lb/script.js"></script>
+</body>
+
+</html>
